@@ -48,4 +48,5 @@ apt-get install php5-json
 #go to piwik folder
 cd /home/piwik/domains/cloud.piwik.la/public_html
 wget http://www.adminer.org/latest.php
+rm latest.php adminer.php
 chmod 755 adminer.php

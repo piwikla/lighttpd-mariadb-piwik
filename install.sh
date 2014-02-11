@@ -12,7 +12,7 @@ sudo apt-get install lighttpd php5-cgi
 #Install MariaDB
 sudo apt-get install software-properties-common
 sudo apt-key adv --recv-keys --keyserver hkp://keyserver.ubuntu.com:80 0xcbcb082a1bb943db
-sudo add-apt-repository 'deb http://ftp.yz.yamagata-u.ac.jp/pub/dbms/mariadb/repo/10.0/ubuntu saucy main'
+sudo add-apt-repository 'deb http://mirror.jmu.edu/pub/mariadb/repo/10.0/ubuntu saucy main'
 sudo apt-get update
 sudo apt-get install mariadb-server
 
